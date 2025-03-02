@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Flight Itinerary</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Flight Itinerary</h1>
+      <p>Traveler Information</p>
+      <div class="traveler-info">
+        <p><strong>Name:</strong> <span id="traveler-name">John Doe</span></p>
+        <p><strong>Contact:</strong> <span id="traveler-contact">john.doe@email.com</span></p>
+      </div>
+    </header>
+
+    <section class="flight-info">
+      <h2>Flight 1: Outbound Journey</h2>
+      <div class="flight-details">
+        <p><strong>Departure:</strong> <span id="flight1-departure-time">March 10, 2025 - 9:00 AM</span></p>
+        <p><strong>From:</strong> <span id="flight1-departure-airport">JFK Airport (JFK)</span></p>
+        <p><strong>To:</strong> <span id="flight1-arrival-airport">LAX Airport (LAX)</span></p>
+        <p><strong>Flight Number:</strong> <span id="flight1-number">AA123</span></p>
+        <p><strong>Gate:</strong> <span id="flight1-gate">G8</span></p>
+        <p><strong>Seat:</strong> <span id="flight1-seat">22B</span></p>
+      </div>
+
+      <h2>Flight 2: Return Journey</h2>
+      <div class="flight-details">
+        <p><strong>Departure:</strong> <span id="flight2-departure-time">March 17, 2025 - 2:00 PM</span></p>
+        <p><strong>From:</strong> <span id="flight2-departure-airport">LAX Airport (LAX)</span></p>
+        <p><strong>To:</strong> <span id="flight2-arrival-airport">JFK Airport (JFK)</span></p>
+        <p><strong>Flight Number:</strong> <span id="flight2-number">AA124</span></p>
+        <p><strong>Gate:</strong> <span id="flight2-gate">D12</span></p>
+        <p><strong>Seat:</strong> <span id="flight2-seat">22C</span></p>
+      </div>
+    </section>
+
+    <section class="additional-info">
+      <h3>Additional Details</h3>
+      <ul>
+        <li><strong>Baggage:</strong> 1 Carry-on + 1 Checked</li>
+        <li><strong>Special Requests:</strong> Vegetarian Meal</li>
+      </ul>
+    </section>
+
+    <section class="important-contacts">
+      <h3>Important Contacts</h3>
+      <p><strong>Airline Support:</strong> 1-800-555-1234</p>
+      <p><strong>Travel Insurance:</strong> XYZ Insurance, Contact: 1-800-555-6789</p>
+    </section>
+
+    <section class="checklist">
+      <h3>Travel Checklist</h3>
+      <ul>
+        <li>Passport: <input type="checkbox" checked disabled></li>
+        <li>Flight Tickets: <input type="checkbox" checked disabled></li>
+        <li>Luggage: <input type="checkbox"></li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 1.8em;
+    color: #5D5C61;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    color: #888;
+  }
+  
+  .traveler-info p {
+    font-size: 1.1em;
+  }
+  
+  h2 {
+    font-size: 1.6em;
+    margin-top: 20px;
+    color: #5D5C61;
+  }
+  
+  .flight-details p,
+  .additional-info li,
+  .important-contacts p {
+    font-size: 1em;
+    margin: 8px 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .checklist input {
+    margin-left: 10px;
+  }
+  
+  .checklist li {
+    margin: 10px 0;
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 1.4em;
+    color: #5D5C61;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  }
+  
